@@ -1,0 +1,25 @@
+[project]
+name = "joyman"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "hinata.katayama",email = "hinata.katayama@brainpad.co.jp"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit (>=1.50.0,<2.0.0)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "gtts (>=2.5.4,<3.0.0)",
+    "pydub (>=0.25.1,<0.26.0)",
+    "pyttsx3 (>=2.99,<3.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
